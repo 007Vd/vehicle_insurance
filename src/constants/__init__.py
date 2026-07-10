@@ -72,4 +72,4 @@ MODEL_PUSHER_S3_KEY = "model-registry"
 
 
 APP_HOST = "0.0.0.0"
-APP_PORT = 9000
+APP_PORT = int(os.getenv("PORT", 8080))
